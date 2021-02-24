@@ -1,0 +1,148 @@
+TerminalView https://stackoverflow.com/questions/37455810/image-class-not-found-when-using-intervention/37456051
+https://medium.com/@litvinjuan/how-to-fix-target-class-does-not-exist-in-laravel-8-f9e28b79f8b4
+https://lukasmarkevicius.com/blog/how-to-create-categories-and-subcategories-using-laravel
+de studiat in laravel 8
+
+
+https://www.itsolutionstuff.com/post/laravel-5-category-treeview-hierarchical-structure-example-with-demoexample.html
+
+
+https://stackoverflow.com/questions/45193174/get-category-name-from-category-id-laravel
+=== for relation   pord->categ->name
+
+
+Step 3 -- Generating Authentication Scaffolding
+
+After installation of Laravel 8 Jetstream package. It automatically scaffolds the login, two-factor login, registration, password reset, and email verification views for your project.
+
+Simply, install and build your frontend dependencies as follows:
+
+$ npm install && npm run dev
+
+ DONE  Compiled successfully in 22806ms                               6:13:23 PM
+
+       Asset      Size   Chunks             Chunk Names
+/css/app.css  4.21 MiB  /js/app  [emitted]  /js/app
+  /js/app.js  1.33 MiB  /js/app  [emitted]  /js/app
+
+
+https://getbootstrap.com/docs/4.0/components/navbar/  ->studiu cu boostrap
+
+
+
+mdoul de creare a unui proiect:
+php artisan clear-compiled
+php artisan view:clear
+php artisan cache:clear
+
+
+Routing
+
+Laravel's laravel/ui package provides a quick way to scaffold all of the routes and views you need for authentication using a few simple commands:
+
+composer require laravel/ui "^1.0" --dev
+
+php artisan ui vue --auth
+
+
+Define Models
+
+The easiest way to create a model instance is using the make:model Artisan command:
+
+php artisan make:model Test
+
+If you want to generate the corresponding migration files, you may use the --migration or -m option:
+
+php artisan make:model Test --migration
+
+php artisan make:model Test -m
+
+after that
+
+php artisan migrate --force
+
+
+
+//pentru optimizare in laravel
+$ php artisan clear-compiled
+$ composer dump-autoload
+$ php artisan optimize
+
+//to repair route
+
+php artisan route:clear
+
+//to create table migration
+https://laravel.com/docs/8.x/migrations
+
+php artisan make:migration create_users_table --create=users
+
+php artisan make:migration add_votes_to_users_table --table=users
+
+php artisan make:seeder UserSeeder ->seeeder
+
+https://stackoverflow.com/questions/45473624/laravel-5-4-specific-table-migration
+
+
+
+
+If you can, run :
+
+composer update
+
+composer require doctrine/dbal
+
+
+php artisan db:seed
+
+php artisan db:seed --class=UserSeeder
+
+
+https://www.w3schools.com/icons/fontawesome_icons_webapp.asp
+
+
+https://www.nicesnippets.com/blog/laravel-tag-system-tutorial-exam
+
+
+Shopify app laravel
+
+
+for role
+
+https://github.com/savanihd/user-roles-and-permissions-acl-using-spatie-tutorial-laravel-5.8
+
+https://mdbootstrap.com/docs/jquery/navigation/footer/
+
+
+
+
+You've probably fixed this but for others with the same problem, the preset command was removed in Laravel 7, you will now want to use
+
+composer require laravel/ui
+
+php artisan ui react
+
+auth and some other guys are here now too
+
+
+https://jsfiddle.net/2at4nhLa/ to reset button
+
+
+https://stackoverflow.com/questions/3019698/reset-id-autoincrement-phpmyadmin
+
+
+ALTER TABLE `table_name` AUTO_INCREMENT=1 reset the panel admin in xampp
+
+
+https://blog.quickadminpanel.com/master-detail-form-in-laravel-jquery-create-order-with-products/
+
+https://blog.quickadminpanel.com/master-detail-form-in-laravel-jquery-create-order-with-products/
+
+
+https://github.com/LaravelDaily/Laravel-Master-Detail-Form de studiat in laravel
+
+
+
+https://www.codecheef.org/article/autocomplete-search-with-laravel-jquery-and-ajax
+
+for search live of product for website

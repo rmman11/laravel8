@@ -1,0 +1,102 @@
+
+
+/*Func*/
+
+
+.multi-level, .item1 ul, .nav input[type="checkbox"] {
+    display: none;
+}
+#menu:checked ~ .multi-level, .item1 input:checked ~ ul {
+    display: block;
+}
+
+.multi-level{
+display: none;
+  position: absolute;
+  margin-top: 60px;
+  background-color: #f1f1f1;
+  min-width: 260px;
+  overflow: auto;
+  z-index: 1;
+}
+
+.item1 a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/*Arrow*/
+
+.arrow {
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    float: left;
+    z-index: 1;
+    margin: 17px 1em 0 2em;
+}
+.item1 input + .arrow {
+    transform: rotate(-90deg);
+    transition: 0.1s;
+}
+.item1 input:checked + .arrow {
+    transform: rotate(0deg);
+    transition: 0.1s;
+}
+
+
+
+/*Styles*/
+
+#categ:hover {
+    cursor: pointer;
+}
+#categ {
+    width: 100%;
+    display: block;
+    z-index: 3;
+    position: relative;
+}
+.nav {
+    width: 100%;
+    overflow-x: hidden;
+    border-bottom: 1px solid #CFD8DC;
+}
+
+
+.nav ul, .nav li, #categ {
+    line-height: 40px;
+    margin: 0;
+    padding: 0 2em;
+    list-style: none;
+    text-decoration: none;
+    color: #90A4AE;
+   
+  
+
+}
+.nav .item1 ul {
+    padding: 0 0.25em;
+}
+.nav li a {
+    line-height: 50px;
+    margin: 0;
+    padding: 0 4em;
+    list-style: none;
+    text-decoration: none;
+    color: #90A4AE;
+    font-weight: 100;
+}
+
+
+#product_list{
+
+ position: absolute;
+  background-color: #f1f1f1;
+  min-width: 260px;
+  overflow: auto;
+  z-index: 1;
+
+}
